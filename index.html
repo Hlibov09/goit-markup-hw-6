@@ -387,29 +387,28 @@
       <form class="modal-form">
         <label class="modal-label" for="user-name">Имя</label>
         <div class="input-wrap">
-          <input type="tel" class="modal-input" placeholder="" />
+          <input type="tel" class="modal-input" id="user-name" placeholder="" />
           <svg class="modal-icon" height="18" width="18">
             <use href="./img/icons.svg#icon-person-black"></use>
           </svg>
         </div>
         <label class="modal-label" for="user-phone">Телефон</label>
         <div class="input-wrap">
-          <input type="text" class="modal-input" placeholder="" />
+          <input type="text" class="modal-input" id="user-phone" placeholder="" />
           <svg class="modal-icon" height="18" width="18">
             <use href="./img/icons.svg#icon-phone-black"></use>
           </svg>
         </div>
         <label class="modal-label" for="user-email">Почта</label>
         <div class="input-wrap">
-          <input type="text" class="modal-input" placeholder="" />
+          <input type="text" class="modal-input" id="user-email" placeholder="" />
           <svg class="modal-icon" height="18" width="18">
             <use href="./img/icons.svg#icon-email-black"></use>
           </svg>
         </div>
         <div class="input-wrap">
           <label class="modal-label" for="user-comment">Комментарий</label>
-
-          <textarea name="modal-comment" id="modal-comment" class="modal-comment" placeholder="Введите текст" cols="30"
+          <textarea name="modal-comment" id="user-comment" class="modal-comment" placeholder="Введите текст" cols="30"
             rows="10"></textarea>
         </div>
         <div class="check-wrap">
@@ -418,7 +417,8 @@
               <svg class="check-icon" height="8" width="11">
                 <use href="./img/icons.svg#icon-vector"></use>
               </svg>
-            </span>Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+            </span>Соглашаюсь с рассылкой и принимаю <a href="" class="link">Условия
+              договора</a>
           </label>
         </div>
         <button type="submit" class="modal-button">Отправить</button>
